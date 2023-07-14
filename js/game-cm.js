@@ -1,6 +1,6 @@
 "use strict";
 
-const CARD_IMG = ['1','2','3','4','5','6','7','8'];
+const CARD_IMG = ['1','2','3','4','5','6','7','8','9','10','11','12'];
 const BOARD_SIZE = 16;
 
 let stage = 1; // 게임 스테이지
@@ -72,7 +72,7 @@ function makeCardDeck() {
 
     for (let i = 0; i < BOARD_SIZE / 2; i++) {
         // 랜덤 값 뽑기
-        let randomNumber = getRandom(8, 0);
+        let randomNumber = getRandom(12, 0);
 
         // 중복 검사
         // cardDeckImgArr 안에 random 값이 없다면 cardDeckImgArr에 추가
