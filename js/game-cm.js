@@ -146,7 +146,7 @@ function showCardDeck() {
 
     showCardPromise.then(() => {
         // showCardPromise 성공인 경우 실행할 코드
-        setTimeout(hideCardDeck, 2000);
+        setTimeout(hideCardDeck, 1000);
     })
 }
 
